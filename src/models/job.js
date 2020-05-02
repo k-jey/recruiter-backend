@@ -19,7 +19,7 @@ const jobSchema = new monggose.Schema({
         trim: true
     },
     status:{
-        type: Boolean,
+        type: String,
         default: 'true'
     },
     owner: {
