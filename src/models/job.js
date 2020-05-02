@@ -2,7 +2,7 @@ const monggose = require('mongoose')
 const validator = require('validator')
 
 const jobSchema = new monggose.Schema({
-    //test
+    //test cosjbfdklsflaa;ga
     title: {
         type: String,
         required: true,
@@ -30,7 +30,7 @@ const jobSchema = new monggose.Schema({
 }, {
     timestamps: true
 })
-
+//sdfghjksufsf
 const Job = monggose.model('Job', jobSchema)
 
 module.exports = Job
