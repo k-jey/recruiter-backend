@@ -2,6 +2,7 @@ const monggose = require('mongoose')
 const validator = require('validator')
 
 const jobSchema = new monggose.Schema({
+    //test
     title: {
         type: String,
         required: true,
